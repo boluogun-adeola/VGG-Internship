@@ -7,24 +7,15 @@
 body{
     
     background-color: rgb(1, 1, 12);
-    
 }
 form{
     
     margin-left: 30em;
     margin-top:5em;
     line-height: 35px;
-
-    
-
-    font-family: sans-serif;
+     font-family: sans-serif;
     color:white;
-    
-    
-    
-    
-    
-}
+    }
 .fullname{
     display: flex;
     flex-direction: column;
@@ -50,5 +41,4 @@ input#submit{
     font-size:15px;
     text-align:center;
     color:white;
-
 }
