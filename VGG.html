@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<head>
+    <title>VGG INTERSHIP</title>
+    <link href="VGG.css" type="text/css" rel="stylesheet"/>
+</head>
+<body>
+
+    <form method="POST" onSubmit="alert('Thank you for your response.');">
+        <h2> REGISTRATION FORM</h2></br>
+       <!--This form is a feedback form for VGG interns,fields are name,surname,track,date of birth and expectations-->
+       <div class= "fullname">
+           Name
+           <input type="text" required name="name" placeholder="input your firstname" minlength="3">
+           Surname
+           <input type="text" required surname="surname" placeholder="input your surname">
+       </div>
+       
+       Date of birth <input type="date" required ><br>
+       Gender<br>
+       male <input type="radio" name="Gender" required id="sex">
+       female <input type="radio" name="Gender" required id="sex"><br>
+       VGG Internship Track:<br>
+       <select>
+           <option value="frontend">Frontend</option>
+           <option value="Backend">Backend</option>
+           <option value="Devops">Devops</option>
+           <option value="UI/UX">UI/UX</option>
+           <option value="software QA">Software quality assurrance</option>
+       </select><br>
+       What are your expectations for the Internship<br>
+       <textarea name="message" minlength="20" required placeholder="what are your expectations"></textarea><br>
+       <input type="submit" Value="submit" id="submit">
+
+
+    </form>
+</body>
