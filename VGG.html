@@ -1,5 +1,7 @@
 <!DOCTYPE html>
 <head>
+    <meta charset="utf-8">
+    <meta name="description" content="Registration form for VGG interns">
     <title>VGG INTERSHIP</title>
     <link href="VGG.css" type="text/css" rel="stylesheet"/>
 </head>
@@ -7,7 +9,7 @@
 
     <form method="POST" onSubmit="alert('Thank you for your response.');">
         <h2> REGISTRATION FORM</h2></br>
-       <!--This form is a feedback form for VGG interns,fields are name,surname,track,date of birth and expectations-->
+       <!--This form is the registration form form for incoming VGG interns-->
        <div class= "fullname">
            Name
            <input type="text" required name="name" placeholder="input your firstname" minlength="3">
@@ -17,8 +19,8 @@
        
        Date of birth <input type="date" required ><br>
        Gender<br>
-       male <input type="radio" name="Gender" required id="sex">
-       female <input type="radio" name="Gender" required id="sex"><br>
+       male <input type="radio" name="Gender" value="Male" required id="sex">
+       female <input type="radio" name="Gender" value="Female" required id="sex"><br>
        VGG Internship Track:<br>
        <select>
            <option value="frontend">Frontend</option>
